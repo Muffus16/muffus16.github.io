@@ -545,9 +545,9 @@ SMOverviewMap = (function() {
         if(tiles.includes(tileid)) {
             return `./assets/img/tiles/${tileid}.jpg`
         }
-         if(tileid > 8000000) {
-             return './assets/img/lake_generic.jpg'
-         }
+        // if(tileid > 8000000) {
+        //     return './assets/img/lake_generic.jpg'
+        // }
         if(x == -37 && y == -39) {
             return './assets/img/start_crashsite_-37_-39.jpg';
         } else if(x == -37 && y == -39) {
